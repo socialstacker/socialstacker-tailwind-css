@@ -5,36 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Stacker</title>
-    <link rel="stylesheet" href="style.css"/>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="flex items-center justify-center min-h-screen bg-gray-100">
-    <div class="card-container bg-white shadow-lg">
-        <div class="card bg-blue-500 rounded-2xl h-[300px] w-full top-0 left-0"
+    <div class="relative h-[505px] w-[512px] overflow-hidden rounded-2xl bg-white shadow-lg">
+        
+        <div class="group absolute flex justify-center items-center font-bold text-2xl text-white z-[1] overflow-hidden bg-cover bg-center shadow-md transition-all duration-500 ease-in-out bg-blue-500 rounded-2xl h-[300px] w-full top-0 left-0 hover:h-[512px] hover:w-[512px] hover:top-0 hover:left-0 hover:right-auto hover:bottom-auto hover:z-10 hover:shadow-xl"
             style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80');">
-            <div class="card-content">
-                <div class="card-title">Mountain View</div>
-                <div class="card-description">Explore the breathtaking heights of natural wonders. These majestic
-                    mountains offer spectacular views and unforgettable experiences for all adventure seekers.</div>
+            <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent transition-all duration-300 ease-in-out group-hover:pb-10">
+                <div class="text-xl font-bold mb-2">Mountain View</div>
+                <div class="text-sm opacity-0 max-h-0 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:max-h-[100px]">
+                    Explore the breathtaking heights of natural wonders. These majestic
+                    mountains offer spectacular views and unforgettable experiences for all adventure seekers.
+                </div>
             </div>
         </div>
-        <div class="card bg-teal-600 rounded-2xl h-[200px] w-[200px] top-[305px] left-0 bottom-0"
+
+        <div class="group absolute flex justify-center items-center font-bold text-2xl text-white z-[1] overflow-hidden bg-cover bg-center shadow-md transition-all duration-500 ease-in-out bg-teal-600 rounded-2xl h-[200px] w-[200px] top-[305px] left-0 bottom-0 hover:h-[512px] hover:w-[512px] hover:top-0 hover:left-0 hover:right-auto hover:bottom-auto hover:z-10 hover:shadow-xl"
             style="background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80');">
-            <div class="card-content">
-                <div class="card-title">Calm Waters</div>
-                <div class="card-description">Experience the serene beauty of this peaceful lake destination. Perfect
-                    for relaxation and connecting with nature's gentle side.</div>
+            <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent transition-all duration-300 ease-in-out group-hover:pb-10">
+                <div class="text-xl font-bold mb-2">Calm Waters</div>
+                <div class="text-sm opacity-0 max-h-0 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:max-h-[100px]">
+                    Experience the serene beauty of this peaceful lake destination. Perfect
+                    for relaxation and connecting with nature's gentle side.
+                </div>
             </div>
         </div>
-        <div class="card-d3 bg-teal-600 rounded-2xl border-4 hover:border-0 border-white h-[280px] w-[305px] right-0 bottom-0"
+
+        <div class="group absolute flex justify-center items-center font-bold text-2xl text-white z-[1] overflow-hidden bg-cover bg-center shadow-md transition-all duration-500 ease-in-out bg-teal-600 rounded-2xl border-4 hover:border-0 border-white h-[280px] w-[305px] right-0 bottom-0 hover:h-[512px] hover:w-[512px] hover:top-auto hover:left-auto hover:right-0 hover:bottom-0 hover:z-10 hover:shadow-xl"
             style="background-image: url('https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80');">
-            <div class="card-content">
-                <div class="card-title">Forest Journey</div>
-                <div class="card-description">Discover the mysteries hidden within ancient forests. A lush green
-                    sanctuary where time seems to stand still among the towering trees.</div>
+            <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent transition-all duration-300 ease-in-out group-hover:pb-10">
+                <div class="text-xl font-bold mb-2">Forest Journey</div>
+                <div class="text-sm opacity-0 max-h-0 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:max-h-[100px]">
+                    Discover the mysteries hidden within ancient forests. A lush green
+                    sanctuary where time seems to stand still among the towering trees.
+                </div>
             </div>
         </div>
+
     </div>
 </body>
 
